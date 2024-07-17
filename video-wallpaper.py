@@ -74,9 +74,9 @@ class MainWindow(QtWidgets.QMainWindow):
 			else:
 				self.statusbar.showMessage("Playback is running.")
 
-	# Stops video wallpaper playback
+	# Stops all mpv processes
 	def stop(self):
-		os.system(self.shellScript + " --stop")
+		os.system("killall mpv")
 		self.statusbar.showMessage("Playback stopped.")
 	
 	# Sets video wallpaper to start automatically on boot
