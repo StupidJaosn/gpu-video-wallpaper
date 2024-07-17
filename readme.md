@@ -19,7 +19,7 @@ CLI usage: video-wallpaper.sh [--start] [--stop] [--startup true|false] "video_p
 ## Installation
 
 ```bash
-git clone https://github.com/ghostlexly/gpu-video-wallpaper.git
+git clone https://github.com/StupidJaosn/gpu-video-wallpaper.git
 cd gpu-video*
 ./install.sh
 ```
