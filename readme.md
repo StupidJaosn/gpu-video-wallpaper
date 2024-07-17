@@ -1,5 +1,7 @@
 # video-wallpaper
 
+Small changes to make it better for my own personal use.
+
 Run a video as an animated live wallpaper on your Ubuntu/Debian-based Linux desktop with dual/multiple monitor support.
 
 You can either run the application through its GUI or via the command line.
